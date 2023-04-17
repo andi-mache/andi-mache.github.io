@@ -1,9 +1,9 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: Construct3d Kaos
+description: "this my personal blog documenting my progress in computer science"
 author:
-  name: "SomeHacker"
-  email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  name: "andi"
+  email: "andi146@proton.me"
+  url: "https://Andi-254.github.io"
 
 baseurl: /
 
@@ -28,5 +28,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
-year : "2020"
+owner : "Andi-254"
+year : "2023"
