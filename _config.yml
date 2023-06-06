@@ -1,32 +1,26 @@
-title: Construct3d Kaos
-description: "this my personal blog documenting my progress in computer science"
+title: Jekyll Serial Programmer
+markdown: kramdown
+
+# for atom feed
 author:
-  name: "andi"
-  email: "andi146@proton.me"
-  url: "https://Andi-254.github.io"
+  name: Sharad Raj Singh Maurya
+  email: dev_sharad@outlook.com
 
-baseurl: /
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 3
-paginate_path: /page/:num/
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: "_posts"
     values:
       layout: "post"
-
-future: true
-plugins:
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
-
-# Custom variables
-owner : "Andi-254"
-year : "2023"
+      permalink: /posts/:title/
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]

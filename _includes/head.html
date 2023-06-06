@@ -1,11 +1,17 @@
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <meta name="generator" content="Jekyll">
-
-  <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
-  
-  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> {% seo %}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{site.title}} | {{page.title}}</title>
+  {% if page.layout == "post" %}
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/post.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css" />
+  {% else %}
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/blog.css" />
+  {%endif%}
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css" />
+  <script src="{{site.baseurl}}/assets/js/categories.js"></script>
+  {% if page.layout == "post" %}
+  <script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>
+  {% endif %}
 </head>
