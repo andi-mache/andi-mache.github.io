@@ -18,6 +18,7 @@
   z-index: 10;
   display: none;
   visibility: hidden;
+  border: 10px solid #eeeeee;
 }
 #category-modal {
   position: fixed;
@@ -35,7 +36,6 @@
   display: none;
   visibility: hidden;
   line-height: 140%;
-  border: 1px solid #eeeeee;
 }
 #category-modal-content {
   display: relative;
