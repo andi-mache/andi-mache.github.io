@@ -8,6 +8,8 @@
   --white-1: #eeeeee;
   --white-2: #a9abb3;
   --matrix:  #00ff1c;
+  --purple:  #b0f;
+  --yellow:  #ebff00;
 }
 #category-modal-bg {
   position: fixed;
@@ -19,7 +21,7 @@
   z-index: 10;
   display: none;
   visibility: hidden;
-  border: 10px solid #eeeeee;
+ 
 }
 #category-modal {
   position: fixed;
@@ -37,6 +39,7 @@
   display: none;
   visibility: hidden;
   line-height: 140%;
+  border: 10px dashed #ebff00;
 }
 #category-modal-content {
   display: relative;
@@ -56,7 +59,7 @@
 .modal-article,
 .modal-article-date {
   display: block;
-  color: var(--white-2);
+  color: var(--purple);
 }
 .modal-article {
   margin-bottom: 0.5rem;
