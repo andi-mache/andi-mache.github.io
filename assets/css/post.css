@@ -53,6 +53,7 @@ main {
   margin-bottom: 3rem;
   border: 1px solid #eeeeee;
   padding: 15px;
+  border-radius: 15px;
 }
 
 .article-header {
