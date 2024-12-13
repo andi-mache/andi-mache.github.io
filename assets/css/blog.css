@@ -94,6 +94,7 @@ main {
   background: var(--gray-3);
   border-radius: 15px;
   transition: all 0.2s ease-in-out;
+  border: 10px solid #eeeeee;
 }
 .articles .article .article-title,
 .articles .article .article-title a {
