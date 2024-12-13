@@ -9,6 +9,7 @@
   --gray-6: #111111;
   --white-1: #eeeeee;
   --white-2: #a9abb3;
+  --matrix: #00ff1c;
 }
 * {
   font-family: inherit;
@@ -24,7 +25,7 @@
 }
 html,
 body {
-  color: var(--white-2);
+  color: var(--matrix);
   background-color: var(--gray-6);
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
