@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Noto Sans Batak
-- Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/notosansbatak/v20/gok2H6TwAEdtF9N8-mdTCQvT-Zdgo4_PHuk74A.ttf
-- Font License: undefined)
