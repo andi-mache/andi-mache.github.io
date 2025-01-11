@@ -1,0 +1,51 @@
+# > name: Name of your Dev Tool
+# > weight: Describes how good you know the tool - values from 1 up to 5
+#
+# Example of a Dev Tool
+# - name: Git
+#   weight: 5
+
+- name: Git
+  weight: 5
+
+- name: Bash
+  weight: 3
+
+- name: Versel
+  weight: 3
+
+- name: Netifly
+  weight: 1
+
+- name: PythonAnywhere
+  weight: 1
+
+- name: Chrome DevTools
+  weight: 2
+
+- name: npm
+  weight: 3
+
+- name: gulp
+  weight: 2
+
+- name: VS Code
+  weight: 3
+
+- name: Neovim
+  weight: 4
+
+- name: Linux
+  weight: 5
+
+- name: Apache
+  weight: 5
+  
+- name: Nginx
+  weight: 2
+
+- name: Mysql
+  weight: 4
+
+- name: Redis
+  weight: 3
