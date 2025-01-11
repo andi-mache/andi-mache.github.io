@@ -1,0 +1,18 @@
+current directory: /home/andi/Project/fun/new-ideas/neumorphism/_vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/usr/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/andi/Project/fun/new-ideas/neumorphism/_vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241230-862360-mhmsl9 sitelibdir\=./.gem.20241230-862360-mhmsl9 clean
+
+current directory: /home/andi/Project/fun/new-ideas/neumorphism/_vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241230-862360-mhmsl9 sitelibdir\=./.gem.20241230-862360-mhmsl9
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/andi/Project/fun/new-ideas/neumorphism/_vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241230-862360-mhmsl9 sitelibdir\=./.gem.20241230-862360-mhmsl9 install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20241230-862360-mhmsl9/racc
+
+current directory: /home/andi/Project/fun/new-ideas/neumorphism/_vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241230-862360-mhmsl9 sitelibdir\=./.gem.20241230-862360-mhmsl9 clean
