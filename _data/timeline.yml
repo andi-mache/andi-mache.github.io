@@ -17,20 +17,20 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
+- title: Freelance
   title-url: 
   date: Sep 2020 - Present
   subtitle: Freelance Developer
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
+    - tag: Django
+    - tag: Python
+    - tag: Rust
+    - tag: C++
+  timeline-side: left
 
-- title: Google
+- title: Freelance
   title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
+  date: Jan 2021 - Sep 2019
   subtitle: Software Engineer as Intern
   tags:
     - tag: Flutter
