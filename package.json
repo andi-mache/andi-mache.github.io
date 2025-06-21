@@ -1,12 +1,12 @@
 {
-  "name": "Neumorphism",
-  "version": "1.0.0",
-  "description": "",
+  "name": "Andi Mache",
+  "version": "2.0.0",
+  "description": "semantic web design framework",
   "scripts": {
     "dev": "gulp",
     "prod": "gulp build"
   },
-  "author": "Long Do",
+  "author": "Adrian Mache",
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^3.0.4",
