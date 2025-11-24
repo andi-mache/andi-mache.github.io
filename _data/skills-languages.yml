@@ -14,7 +14,7 @@
 - name: Python
   weight: 3
 
-- name: HTML5
+- name: Java
   weight: 4
 
 - name: CSS3

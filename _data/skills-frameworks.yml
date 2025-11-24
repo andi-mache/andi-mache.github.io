@@ -5,7 +5,7 @@
 # - name: Framework
 #   weight: 5
 
-- name: NextJs
+- name: NeoForge
   weight: 1
 
 - name: Yew

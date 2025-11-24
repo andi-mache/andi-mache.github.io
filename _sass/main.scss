@@ -22,6 +22,7 @@ $bg-color: rgba(18, 18, 18, 1);
 // );
 $card-bg-color: linear-gradient(145deg,hsla(0, 0%, 45.1%, 0) 15%,#121212 80%);
 $primary-color: #00ff64;
+$sec-color:#045f28;
 
 /* General */
 
@@ -62,11 +63,11 @@ a {
 
 .highlight-title {
   color: $primary-color;
-  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  text-shadow: 0.25rem 0.25rem 0.25rem $sec-color;
 }
 
 .highlight-link {
-  box-shadow: inset 0 -0.125rem 0 $primary-color;
+  box-shadow: inset 0 -0.125rem 0 $sec-color;
   box-sizing: border-box;
   color: $primary-color;
   display: inline-block;
@@ -74,7 +75,7 @@ a {
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    box-shadow: inset 0 -2rem 0 0 $primary-color;
+    box-shadow: inset 0 -2rem 0 0 $sec-color;
     color: $text-color;
   }
 }
@@ -134,7 +135,7 @@ a {
 }
 
 .neumorphism-card-big {
-  box-shadow:5px 5px 4px #45ff2a,-10px -16px 4px #000; // 5px 5px 4px #2a91ff,-10px -16px 4px #262626;
+  box-shadow:5px 5px 4px $sec-color,-10px -16px 4px #000; // 5px 5px 4px #2a91ff,-10px -16px 4px #262626;
 }
 
 /* Preloader */

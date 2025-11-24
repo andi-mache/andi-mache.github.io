@@ -17,7 +17,7 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: Freelance
+- title: Freelancer
   title-url: 
   date: Sep 2020 - Present
   subtitle: Freelance Developer
@@ -26,20 +26,22 @@
     - tag: Python
     - tag: Rust
     - tag: C++
+    - tag: Java
+    - tag: NeoForge
   timeline-side: left
 
 - title: Freelance
   title-url: https://example.com/
-  date: Jan 2021 - Sep 2019
-  subtitle: Software Engineer as Intern
+  date: Jan 2024 - may 2024 
+  subtitle: ICT Intern
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Networking
+    - tag: ICT support
+    - tag: CyberSecurity
   timeline-side: right
 
 - title: Gretsa University
   title-url: https://gretsauniversity.ac.ke/
-  date: 2020 - 2025
+  date: 2020 - 
   subtitle: B.A. Computer Science
   timeline-side: left
